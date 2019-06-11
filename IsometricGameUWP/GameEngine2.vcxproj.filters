@@ -1,0 +1,323 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>b0c27a10-1856-4c55-ab46-25497ec25f7f</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets">
+      <UniqueIdentifier>f4e8fc35-e226-4534-aa6f-7654e9b73876</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Filter Include="Game Engine">
+      <UniqueIdentifier>{246f775e-a37c-4be0-ac5e-f7594ea9c24b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Textures">
+      <UniqueIdentifier>{e444d4c3-69bf-4070-b7e5-b6a7b21e6be0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Wavs">
+      <UniqueIdentifier>{6d9610d6-cd39-43b5-9646-57ef577e9d0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maps">
+      <UniqueIdentifier>{532fbae1-16ce-426b-be9f-0de8088a91d8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App.xaml.cpp" />
+    <ClCompile Include="pch.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MainPage.xaml.cpp" />
+    <ClCompile Include="Image.cpp">
+      <Filter>Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Input.cpp">
+      <Filter>Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundFileReader.cpp">
+      <Filter>Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomAccessReader.cpp">
+      <Filter>Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="TextWin2D.cpp">
+      <Filter>Game Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Character.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App.xaml.h" />
+    <ClInclude Include="pch.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MainPage.xaml.h" />
+    <ClInclude Include="GameError.h">
+      <Filter>Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="Input.h">
+      <Filter>Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundFileReader.h">
+      <Filter>Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomAccessReader.h">
+      <Filter>Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Strings.h" />
+    <ClInclude Include="Audio.h">
+      <Filter>Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TextWin2D.h">
+      <Filter>Game Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="Character.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\Square71x71Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square71x71Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square150x150Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Wide310x150Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\Square44x44Logo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-400.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-200.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-150.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-125.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.scale-100.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Textures\fenceTextures.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\groundTextures.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\towerTextures.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\wellTextures.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\npcTexture.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\hutTexture.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\tree2Textures.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\treeTextures.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\archerTexturess.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\barricadeTextures.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\brokenTowerTexture.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\building6Textures.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\menuBackground.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\playerTextures.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\pondTexture.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\rockTextures.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\timberedHouseTexture.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\watchTowerTextures.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\buildingTexture.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\building2Texture.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\building3Texture.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\building4Texture.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\building5Texture.png">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Textures\backgroundTexture.jpg">
+      <Filter>Textures</Filter>
+    </Image>
+    <Image Include="Assets\sky1.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Textures\chestTexture.png">
+      <Filter>Assets</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Filter>Common</Filter>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest">
+      <Filter>Common</Filter>
+    </AppxManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\..\Robert%27s Documents\Projects\repositories\MCCCWinter2016\CIS 267\Win2DImage\Win2DImage\packages.config">
+      <Filter>Common</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="MainPage.xaml">
+      <Filter>Game Engine</Filter>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Wavs\beep1_adpcm.wav">
+      <Filter>Wavs</Filter>
+    </Media>
+    <Media Include="Wavs\beep2_adpcm.wav">
+      <Filter>Wavs</Filter>
+    </Media>
+    <Media Include="Wavs\beep3_adpcm.wav">
+      <Filter>Wavs</Filter>
+    </Media>
+    <Media Include="Wavs\beep4_adpcm.wav">
+      <Filter>Wavs</Filter>
+    </Media>
+    <Media Include="Wavs\hit_adpcm.wav">
+      <Filter>Wavs</Filter>
+    </Media>
+    <Media Include="Wavs\musicmono_adpcm.wav">
+      <Filter>Wavs</Filter>
+    </Media>
+    <Media Include="Wavs\pow_adpcm.wav">
+      <Filter>Wavs</Filter>
+    </Media>
+    <Media Include="Wavs\techno_adpcm.wav">
+      <Filter>Wavs</Filter>
+    </Media>
+    <Media Include="Wavs\themeMusic_adpcm.wav">
+      <Filter>Wavs</Filter>
+    </Media>
+    <Media Include="Wavs\swordSwoosh_adpcm.wav" />
+    <Media Include="Wavs\arrowShot_adpcm.wav" />
+    <Media Include="Wavs\Battle_adpcm.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="maps\map1.txt">
+      <Filter>Maps</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,36 @@
+ADPCM Overview
+Adaptive Differential Pulse Code Modulation (ADPCM) is a lossy compression format that is implemented for XAudio2 to provide additional features for specifying the size of the compression sample block. With a lossy compression format some data is altered and lost during compression. ADPCM can achieve compression ratios of up to 4:1.
+The implementation of ADPCM for XAudio2 provides additional features to specify the size of the compression sample block. ADPCM enables the audio designer to choose a setting that is an appropriate compromise among size, quality, and resolution (for placing loop points).
+XAudio2 uses a modified version of the Microsoft ADPCM codec that supports the extended data formatting required to provide custom sample block sizes. For this reason, XAudio2 audio data cannot be played by audio engines that do not support this version of the ADPCM codec.
+Note  Currently, ADPCM compression is only available for Windows, including XNA Game Studio Express for Windows deployments.
+ 
+ADPCM Encoding
+
+Audio data is encoded to ADPCM using the AdpcmEncode command-line tool.
+AdpcmEncode
+In order to encode audio files as ADPCM for use with XAudio2, use the AdpcmEncode command-line tool.
+ADPCM Decoding
+
+Software decoding of ADPCM is supported in XAudio2.
+XAudio2
+In order to use ADPCM encoded data in XAudio2, you need to initialize a ADPCMWAVEFORMAT structure with ADPCM specific values, and pass it as an argument to IXAudio2::CreateSourceVoice when you create a source voice. For an example of loading and playing a sound in XAudio2, see How to: Play a Sound with XAudio2.
+
+From: https://msdn.microsoft.com/en-us/library/windows/desktop/ee415711(v=vs.85).aspx
+
+Help - Accessed from command prompt with command adpcmencode.exe /?
+
+Microsoft (R) ADPCM Encoding Tool (build 6.3.9600.17298)
+Copyright (C) 2012 Microsoft Corporation. All rights reserved.
+
+Usage: ADPCMENCODE [-b <N>] [-f <N>] <INPUTFILE>.wav <OUTPUTFILE>.wav
+
+If the input file is PCM, it is encoded to an ADPCM file;
+if the input file is ADPCM, it is decoded to a PCM file.
+
+Input PCM files must be int8, int16 or float32, mono or stereo,
+with at least 128 samples of audio and no loop regions shorter
+than 128 samples.
+
+Options:
+        -b <32|64|128|256|512>: Number of samples per encoded ADPCM block (default 128)
+        -f <N>: Bits per sample in decoded PCM file (8, 16, or 32; default 16)
