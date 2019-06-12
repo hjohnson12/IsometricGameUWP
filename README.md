@@ -9,20 +9,18 @@ of the semester and by the end of the semester we were required to make a simple
   implemented in the engine during the semester, I was able to create a functioning Isometric game that ran on Windows 10. 
   
     * ***NOTES***: 
-      * This application is not currently being worked on. I'll soon have a copy of the updated engine before the book is finished being written,
-      which I then plan on updating the version of the engine used in this application.
+      * This application is not currently being worked on. Once I get the updated engine I will update the repo
       * This application also runs on the Xbox One but is not fully playable due to missing features in the engine
       * This game is not 100% complete due to the time restraint of the semester project being due and missing features in 
       the game engine
 
 ### Screenshots
 
-##### The isometric map:
-
+##### Part of the isometric map. Players position is highlighted:
 
 ![Image of Program](README_Images/AppEx1.png)
 
-##### Login Screen. Once user is registered or is already registered, select login and it will validate credentials
+##### To get the win screen, the player needs to make it to the chest at the bottom corner before losing all their lives:
 
 ![Image of Program](README_Images/AppEx2.png)
 
